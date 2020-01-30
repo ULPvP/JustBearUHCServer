@@ -1,0 +1,9 @@
+MONGODB:
+  ADDRESS: brmp5w34ycodxu3-mongodb.services.clever-cloud.com
+  PORT: 27017
+  DATABASE: brmp5w34ycodxu3
+  AUTHENTICATION:
+    ENABLED: true
+    USERNAME: u9p5cbfuhdmav1oyala2
+    PASSWORD: fTznzzvP3TkAwuOY5FYD
+    DATABASE: brmp5w34ycodxu3

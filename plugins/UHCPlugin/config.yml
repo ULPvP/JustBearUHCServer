@@ -1,0 +1,48 @@
+DO-NOT-TOUCH:
+  wmu: false
+  wrs: false
+  wgen: false
+available-chat-colors: DARK_BLUE, WHITE, AQUA, BLACK, GOLD, DARK_RED, BLUE, DARK_AQUA, DARK_GRAY, DARK_GREEN, DARK_PURPLE, GRAY, GREEN, LIGHT_PURPLE, RED, YELLOW
+settings:
+  name: UHC
+  version: '1.0'
+  restart-command: /restart
+  scatter-ticks: 1
+  uhc-prefix: '&7[&6&lUHC&7] '
+  border-prefix: '&7[&6&lBorder&7] '
+  config-prefix: '&7[&6&lConfig&7] '
+  helpop-prefix: '&7[&6&lHelpop&7] '
+  teams-prefix: '&7[&6&lTeams&7] '
+  main-chat-color: RESET
+  secondary-chat-color: GOLD
+  uhc-world-name: uhc_world
+  spawn-world-name: world
+  spawnLocation:
+    x: 0
+    y: 64
+    z: 0
+  default-map-size: 2000
+  random-border-shrink-at-and-below: 500
+  starter-food-item: COOKED_BEEF
+  kill-player-on-quit-after-minutes: 10
+  helpop-cooldown-seconds: 10
+  kick-player-on-death: true
+  kick-player-on-death-message: '&fYou died in the UHC, thanks for playing.'
+  kick-on-death-after-seconds: 25
+  restart-on-game-finish: true
+  using-world-border-plugin: false
+  load-chunks-per-second: 500
+  restart-on-chunk-load-finish: true
+  spectators-can-open-inventory-on-right-click: false
+scoreboard:
+  lobby-scoreboard-enabled: true
+  scoreboard-title: '&6&lHypeX &F&LUHC'
+  scoreboard-ip: '&6mc.rebirthxsavage.com'
+stats:
+  enabled: false
+  SQL:
+    ip: localhost
+    database: databasehere
+    table: tablenamehere
+    user: userforDatabase
+    password: passForUser

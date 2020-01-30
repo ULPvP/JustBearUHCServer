@@ -1,0 +1,30 @@
+CONFIG:
+  '1':
+    SCENARIOS: Timber, NoClean, TimeBomb, TripleOres, NoFallDamage, TripleExp, InfiniteEnchant
+    VALUES:
+      Nether: false
+      Final Heal Duration: 5
+      PvP Period Duration: 10
+      Border Size: 25
+      Border Shrink Interval: 5
+      Border Shrink Until: 25
+      First Shrink: 20
+      Enderpearl Damage: false
+      Apple Rate: 10
+      Shears: true
+      Enchanted Golden Apples: false
+      Golden Heads: true
+      Nether Bed Explosion: false
+      Strenght Potions: false
+      Speed Potions: false
+      Invisibility Potions: false
+      Flat 50x50: true
+      Glass Border: true
+      Party Damage: true
+      iPvP: true
+      Ores to Inventory: true
+    NAME: Rush UHC &7(Created By FaceSlap_) - by default
+    GAME-TYPE: FFA
+    SAVED-ON: 27/01/2019 02:40:51
+    SAVED-BY: FaceSlap_
+    LOAD-ON-ENABLE: false

@@ -1,0 +1,376 @@
+[19:32:56] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[19:32:56] [Server thread/INFO]: Loading properties
+[19:32:56] [Server thread/INFO]: Default game type: SURVIVAL
+[19:32:56] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[19:32:56] [Server thread/INFO]: Debug logging is disabled
+[19:32:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:32:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:32:56] [Server thread/INFO]: Generating keypair
+[19:32:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:32:57] [Server thread/INFO]: Using default channel type
+[19:32:57] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:32:57] [Server thread/INFO]: [AutoSaveWorld] Loading AutoSaveWorld v4.15
+[19:32:57] [Server thread/INFO]: [FateUHC] Loading FateUHC v3.48
+[19:32:57] [Server thread/INFO]: [LiteBansGUI] Loading LiteBansGUI v1.3
+[19:32:57] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15
+[19:32:57] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:32:57] [Server thread/INFO]: Preparing level "world"
+[19:32:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:32:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:32:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:32:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:32:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:32:57] [Server thread/INFO]: View Distance: 10
+[19:32:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:32:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:32:57] [Server thread/INFO]: Clear tick list: false
+[19:32:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:32:57] [Server thread/INFO]: Mob Spawn Range: 4
+[19:32:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:32:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:32:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Max TNT Explosions: 100
+[19:32:57] [Server thread/INFO]: Structure Info Saving: true
+[19:32:57] [Server thread/INFO]: Random Lighting Updates: false
+[19:32:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:32:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:32:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:32:57] [Server thread/INFO]: Anti X-Ray: true
+[19:32:57] [Server thread/INFO]: 	Engine Mode: 1
+[19:32:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:32:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:32:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:32:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:32:57] [Server thread/INFO]: Max Entity Collisions: 8
+[19:32:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:32:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:32:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:32:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:32:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:32:57] [Server thread/INFO]: View Distance: 10
+[19:32:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:32:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:32:57] [Server thread/INFO]: Clear tick list: false
+[19:32:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:32:57] [Server thread/INFO]: Mob Spawn Range: 4
+[19:32:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:32:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:32:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Max TNT Explosions: 100
+[19:32:57] [Server thread/INFO]: Structure Info Saving: true
+[19:32:57] [Server thread/INFO]: Random Lighting Updates: false
+[19:32:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:32:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:32:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:32:57] [Server thread/INFO]: Anti X-Ray: true
+[19:32:57] [Server thread/INFO]: 	Engine Mode: 1
+[19:32:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:32:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:32:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:32:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:32:57] [Server thread/INFO]: Max Entity Collisions: 8
+[19:32:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:32:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:32:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:32:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:32:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:32:57] [Server thread/INFO]: View Distance: 10
+[19:32:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:32:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:32:57] [Server thread/INFO]: Clear tick list: false
+[19:32:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:32:57] [Server thread/INFO]: Mob Spawn Range: 4
+[19:32:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:32:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:32:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:32:57] [Server thread/INFO]: Max TNT Explosions: 100
+[19:32:57] [Server thread/INFO]: Structure Info Saving: true
+[19:32:57] [Server thread/INFO]: Random Lighting Updates: false
+[19:32:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:32:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:32:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:32:57] [Server thread/INFO]: Anti X-Ray: true
+[19:32:57] [Server thread/INFO]: 	Engine Mode: 1
+[19:32:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:32:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:32:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:32:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:32:57] [Server thread/INFO]: Max Entity Collisions: 8
+[19:32:57] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1589349852030452441)
+[19:32:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1589349852030452441)
+[19:32:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1589349852030452441)
+[19:32:59] [Server thread/INFO]: [FateUHC] Enabling FateUHC v3.48
+[19:33:00] [Server thread/WARN]: [AutoSaveWorld] Plugin FateUHC attempted to establish connection https://license.bghddevelopment.com/dev/admin/api.php?plugin=FateUHCEnableicense=092849274FATEUHC in main server thread
+[19:33:00] [Server thread/WARN]: [AutoSaveWorld] Plugin FateUHC attempted to establish connection socket://license.bghddevelopment.com:443 in main server thread
+[19:33:01] [Server thread/INFO]: [0;37;22m=========================================================[m
+[19:33:01] [Server thread/INFO]: [0;32;1mUHC License is successfully passed. Don't leak plugin.[m
+[19:33:01] [Server thread/INFO]: [0;37;22m=========================================================[m
+[19:33:01] [Server thread/INFO]: [FateUHC] [CONFIG] Using rectangular/square border, knockback of 2.0 blocks, and timer delay of 5.
+[19:33:01] [Server thread/INFO]: [FateUHC] [CONFIG] BedrockWalls-checking timed task started.
+[19:33:01] [Server thread/INFO]: [FateUHC] [CONFIG] World "uhc_world" has border radius 2000 at X: 0.0 Z: 0.0
+[19:33:01] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m] [0;33;1mBungee Auto Announce intervals: [0;31;1m[30,20,10,5,4,3,2,1][m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;1mTop Kills' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;1mTop Deaths' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;1mTop Points' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;1mTop Wins' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;1mTop Games Played' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;1mTop Kill Streak' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;1mTop Golden Apples Eaten' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;1mTop Golden Heads Eaten' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;1mTop Bow Shots' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;33;22mGold' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;37;1mIron' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;1mDiamonds' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;31;1mRedstone' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;32;1mEmerald' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;34;1mLapis' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;37;1mQuartz' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;37;22mCoal' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: [0;33;1mLeaderboard [0;33;22m'[0;36;22mSpawners' [0;33;1mhas been loaded.[m
+[19:33:01] [Server thread/INFO]: Cluster created with settings {hosts=[brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[19:33:01] [Server thread/INFO]: [0;37;22m=========================================================[m
+[19:33:01] [Server thread/INFO]: [0;32;1mSuccessfully swapped all biomes from config.[m
+[19:33:01] [Server thread/INFO]: [0;37;22m=========================================================[m
+[19:33:01] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mDEEP_OCEAN [0;33;22mwith [0;33;1mPLAINS[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mOCEAN [0;33;22mwith [0;33;1mPLAINS[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mJUNGLE [0;33;22mwith [0;33;1mFOREST[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mICE_PLAINS [0;33;22mwith [0;33;1mFOREST[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mJUNGLE_EDGE [0;33;22mwith [0;33;1mFOREST[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mJUNGLE_HILLS [0;33;22mwith [0;33;1mFOREST[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mCOLD_TAIGA [0;33;22mwith [0;33;1mPLAINS[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mICE_MOUNTAINS [0;33;22mwith [0;33;1mFOREST[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mFROZEN_RIVER [0;33;22mwith [0;33;1mFOREST[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mEXTREME_HILLS [0;33;22mwith [0;33;1mFOREST[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mEXTREME_HILLS_PLUS [0;33;22mwith [0;33;1mFOREST[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mFROZEN_OCEAN [0;33;22mwith [0;33;1mPLAINS[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mICE_PLAINS [0;33;22mwith [0;33;1mPLAINS[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mICE_MOUNTAINS [0;33;22mwith [0;33;1mPLAINS[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mTAIGA_HILLS [0;33;22mwith [0;33;1mPLAINS[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mSMALL_MOUNTAINS [0;33;22mwith [0;33;1mPLAINS[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m]  [0;37;22m- [0;33;22mSwapped [0;33;1mDESERT [0;33;22mwith [0;33;1mPLAINS[0;37;22m.[m
+[19:33:02] [Server thread/INFO]: [0;37;22m=========================================================[m
+[19:33:02] [Server thread/INFO]: Could not set generator for world 'uhc_world': Plugin 'TerrainControl' does not exist[m
+[19:33:02] [Server thread/INFO]: -------- World Settings For [uhc_world] --------
+[19:33:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:33:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:33:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:33:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:33:02] [Server thread/INFO]: View Distance: 10
+[19:33:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:33:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:33:02] [Server thread/INFO]: Clear tick list: false
+[19:33:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:33:02] [Server thread/INFO]: Mob Spawn Range: 4
+[19:33:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:33:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:33:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Max TNT Explosions: 100
+[19:33:02] [Server thread/INFO]: Structure Info Saving: true
+[19:33:02] [Server thread/INFO]: Random Lighting Updates: false
+[19:33:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:33:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:33:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:33:02] [Server thread/INFO]: Anti X-Ray: true
+[19:33:02] [Server thread/INFO]: 	Engine Mode: 1
+[19:33:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:33:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:33:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:33:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:33:02] [Server thread/INFO]: Max Entity Collisions: 8
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m] [0;32;1mAttaching sugar cane populator to uhc world. [0;37;22m([0;33;1m50.0%[0;37;22m)[m
+[19:33:02] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m] [0;32;1mAttaching custom cave populator to uhc world.[m
+[19:33:02] [Server thread/INFO]: Preparing start region for level 3 (Seed: -6437093848430847561)
+[19:33:02] [Server thread/INFO]: -------- World Settings For [uhc_world_nether] --------
+[19:33:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:33:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:33:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:33:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:33:02] [Server thread/INFO]: View Distance: 10
+[19:33:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:33:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:33:02] [Server thread/INFO]: Clear tick list: false
+[19:33:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:33:02] [Server thread/INFO]: Mob Spawn Range: 4
+[19:33:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:33:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:33:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:33:02] [Server thread/INFO]: Max TNT Explosions: 100
+[19:33:02] [Server thread/INFO]: Structure Info Saving: true
+[19:33:02] [Server thread/INFO]: Random Lighting Updates: false
+[19:33:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:33:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:33:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:33:02] [Server thread/INFO]: Anti X-Ray: true
+[19:33:02] [Server thread/INFO]: 	Engine Mode: 1
+[19:33:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:33:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:33:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:33:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:33:02] [Server thread/INFO]: Max Entity Collisions: 8
+[19:33:02] [Server thread/INFO]: Preparing start region for level 4 (Seed: 6134727235620669136)
+[19:33:03] [cluster-ClusterId{value='5e32beed7da724655a1e8534', description='null'}-brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017/INFO]: Opened connection [connectionId{localValue:1, serverValue:7818363}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:03] [cluster-ClusterId{value='5e32beed7da724655a1e8534', description='null'}-brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017/INFO]: Monitor thread successfully connected to server with description ServerDescription{address=brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=195311700, setName='rs0', canonicalAddress=n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017, hosts=[n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017, n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017], passives=[], arbiters=[n3-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017], primary='n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000023, setVersion=5, lastWriteDate=Thu Jan 30 19:33:06 CST 2020, lastUpdateTimeNanos=1210927855058900}
+[19:33:03] [Server thread/INFO]: -------- World Settings For [uhc_lobby] --------
+[19:33:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:33:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:33:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:33:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:33:03] [Server thread/INFO]: View Distance: 10
+[19:33:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:33:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:33:03] [Server thread/INFO]: Clear tick list: false
+[19:33:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:33:03] [Server thread/INFO]: Mob Spawn Range: 4
+[19:33:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:33:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:33:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:33:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:33:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:33:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:33:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:33:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:33:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:33:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:33:03] [Server thread/INFO]: Max TNT Explosions: 100
+[19:33:03] [Server thread/INFO]: Structure Info Saving: true
+[19:33:03] [Server thread/INFO]: Random Lighting Updates: false
+[19:33:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:33:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:33:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:33:03] [Server thread/INFO]: Anti X-Ray: true
+[19:33:03] [Server thread/INFO]: 	Engine Mode: 1
+[19:33:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:33:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:33:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:33:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:33:03] [Server thread/INFO]: Max Entity Collisions: 8
+[19:33:03] [Server thread/INFO]: Preparing start region for level 5 (Seed: -3252697157127863635)
+[19:33:04] [Server thread/INFO]: Preparing spawn area for uhc_lobby, 77%
+[19:33:05] [Server thread/INFO]: [0;37;22m[[0;33;1mUHC[0;37;22m] [0;33;1mAll UHC related worlds are now loaded.[m
+[19:33:05] [Server thread/INFO]: [0;37;22m=========================================================[m
+[19:33:05] [Server thread/INFO]: [0;33;1mName: [0;32;1mFateUHC[m
+[19:33:05] [Server thread/INFO]: [0;33;1mVersion: [0;32;1mv3.48[m
+[19:33:05] [Server thread/INFO]: [0;33;1mAuthor: [0;32;1mBGHDDevelopment[m
+[19:33:05] [Server thread/INFO]: [0;33;1mSupport: [0;32;1mhttps://bghddevelopment.com/discord[m
+[19:33:05] [Server thread/INFO]: [0;33;1mPlugin took [0;32;1m5613.0ms [0;33;1mto load.[m
+[19:33:05] [Server thread/INFO]: [0;37;22m=========================================================[m
+[19:33:05] [Server thread/INFO]: [0;33;1mUHC is now using version [0;32;1mv1_8_R3. [0;33;1mto work properly.[m
+[19:33:05] [Server thread/INFO]: [0;33;1mSuccessfully registered scenarios. [0;37;22m([0;32;1m49 total[0;37;22m).[m
+[19:33:05] [Server thread/INFO]: [0;37;22m=========================================================[m
+[19:33:05] [Server thread/INFO]: [LiteBansGUI] Enabling LiteBansGUI v1.3
+[19:33:05] [Server thread/INFO]: [0;37;22m********************[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mInitializing LiteBansGUI Version: 1.3[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mCreated by: BGHDDevelopment[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mWebsite: https://bghddevelopment.com[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mSpigot Link: https://spigotmc.org/resources/52072[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mSupport Link: https://bghddevelopment.com/discord[m
+[19:33:05] [Server thread/INFO]: [0;37;22m********************[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mPlugin Loading...[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mRegistering Managers...[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mManagers Registered![m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mRegistering Listeners...[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mListeners Registered![m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mRegistering Commands...[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mCommands Registered![m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mLoading Config's...[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mConfig's Registered![m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;32;1m[21mSUCCESS[m[0;30;1m] [0;37;1mLiteBansGUI Version: 1.3 Loaded.[m
+[19:33:05] [Server thread/INFO]: [0;37;22m********************[m
+[19:33:05] [Server thread/INFO]: [0;30;1m[[0;33;1m[21mINFO[m[0;30;1m] [0;37;1mChecking for updates...[m
+[19:33:05] [Server thread/WARN]: [AutoSaveWorld] Plugin LiteBansGUI attempted to establish connection https://api.spigotmc.org/legacy/update.php?resource=52072 in main server thread
+[19:33:05] [Server thread/WARN]: [AutoSaveWorld] Plugin LiteBansGUI attempted to establish connection socket://api.spigotmc.org:443 in main server thread
+[19:33:05] [Server thread/INFO]: ---------------------------------
+[19:33:05] [Server thread/INFO]: [LiteBansGUI] Failed to check for a update!
+[19:33:05] [Server thread/INFO]: ---------------------------------
+[19:33:05] [Server thread/WARN]: [AutoSaveWorld] Plugin LiteBansGUI attempted to establish connection https://api.spigotmc.org/legacy/update.php?resource=52072 in main server thread
+[19:33:05] [Server thread/WARN]: [AutoSaveWorld] Plugin LiteBansGUI attempted to establish connection socket://api.spigotmc.org:443 in main server thread
+[19:33:06] [Server thread/INFO]: ---------------------------------
+[19:33:06] [Server thread/INFO]: [LiteBansGUI] Failed to check for a update!
+[19:33:06] [Server thread/INFO]: ---------------------------------
+[19:33:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:33:06] [Server thread/INFO]: Done (8.745s)! For help, type "help" or "?"
+[19:33:08] [Craft Scheduler Thread - 0/INFO]: Opened connection [connectionId{localValue:2, serverValue:7818411}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 3/INFO]: Opened connection [connectionId{localValue:4, serverValue:7818413}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 4/INFO]: Opened connection [connectionId{localValue:5, serverValue:7818415}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 5/INFO]: Opened connection [connectionId{localValue:6, serverValue:7818417}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 6/INFO]: Opened connection [connectionId{localValue:7, serverValue:7818419}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 7/INFO]: Opened connection [connectionId{localValue:8, serverValue:7818421}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 8/INFO]: Opened connection [connectionId{localValue:9, serverValue:7818423}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 1/INFO]: Opened connection [connectionId{localValue:3, serverValue:7818410}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 9/INFO]: Opened connection [connectionId{localValue:10, serverValue:7818425}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 10/INFO]: Opened connection [connectionId{localValue:11, serverValue:7818427}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 11/INFO]: Opened connection [connectionId{localValue:12, serverValue:7818429}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 12/INFO]: Opened connection [connectionId{localValue:13, serverValue:7818431}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:08] [Craft Scheduler Thread - 13/INFO]: Opened connection [connectionId{localValue:14, serverValue:7818434}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:09] [Craft Scheduler Thread - 15/INFO]: Opened connection [connectionId{localValue:16, serverValue:7818438}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:09] [Craft Scheduler Thread - 16/INFO]: Opened connection [connectionId{localValue:17, serverValue:7818440}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:09] [Craft Scheduler Thread - 18/INFO]: Opened connection [connectionId{localValue:19, serverValue:7818445}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:09] [Craft Scheduler Thread - 14/INFO]: Opened connection [connectionId{localValue:15, serverValue:7818436}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:10] [Craft Scheduler Thread - 17/INFO]: Opened connection [connectionId{localValue:18, serverValue:7818455}] to brmp5w34ycodxu3-mongodb.services.clever-cloud.com:27017
+[19:33:35] [User Authenticator #1/INFO]: UUID of player JustBear_TW is 9dc756c9-61ca-47fc-a401-022b67e16739
+[19:33:37] [Server thread/WARN]: [AutoSaveWorld] Plugin LiteBansGUI attempted to establish connection https://api.spigotmc.org/legacy/update.php?resource=52072 in main server thread
+[19:33:37] [Server thread/WARN]: [AutoSaveWorld] Plugin LiteBansGUI attempted to establish connection socket://api.spigotmc.org:443 in main server thread
+[19:33:38] [Server thread/INFO]: ---------------------------------
+[19:33:38] [Server thread/INFO]: [LiteBansGUI] Failed to check for a update!
+[19:33:38] [Server thread/INFO]: ---------------------------------
+[19:33:38] [Server thread/INFO]: JustBear_TW[/192.168.1.10:56269] logged in with entity id 51 at ([uhc_lobby]42.498135353877935, 5.0, -192.54541245560267)
+[19:33:45] [Server thread/INFO]: JustBear_TW issued server command: /
+[19:33:49] [Server thread/INFO]: JustBear_TW issued server command: /gamemode sp
+[19:33:50] [Server thread/INFO]: [JustBear_TW: Set own game mode to Spectator Mode]
+[19:34:15] [Server thread/INFO]: JustBear_TW issued server command: /gamemode c
+[19:34:15] [Server thread/INFO]: [JustBear_TW: Set own game mode to Creative Mode]
+[19:34:28] [Server thread/INFO]: JustBear_TW issued server command: /setworldspawn
+[19:34:28] [Server thread/INFO]: [JustBear_TW: Set the world spawn point to (43, 71, -171)]
+[19:34:32] [Server thread/INFO]: Stopping the server
+[19:34:32] [Server thread/INFO]: Stopping server
+[19:34:32] [Server thread/INFO]: [LiteBansGUI] Disabling LiteBansGUI v1.3
+[19:34:32] [Server thread/INFO]: [FateUHC] Disabling FateUHC v3.48
+[19:34:32] [Server thread/INFO]: [FateUHC] [CONFIG] BedrockWalls-checking timed task stopped.
+[19:34:32] [Server thread/INFO]: [AutoSaveWorld] Disabling AutoSaveWorld v4.15
+[19:34:32] [Server thread/INFO]: [0;34;1mAutoSaving[m
+[19:34:33] [Server thread/INFO]: [0;34;1mAutoSave Complete[m
+[19:34:36] [Server thread/INFO]: Saving players
+[19:34:36] [Server thread/INFO]: JustBear_TW lost connection: Server closed
+[19:34:36] [Server thread/INFO]: JustBear_TW left the game.
+[19:34:37] [Server thread/INFO]: Saving worlds
+[19:34:37] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[19:34:37] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[19:34:37] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[19:34:38] [Server thread/INFO]: Saving chunks for level 'uhc_world'/Overworld
+[19:34:38] [Server thread/INFO]: Saving chunks for level 'uhc_world_nether'/Nether
+[19:34:38] [Server thread/INFO]: Saving chunks for level 'uhc_lobby'/Overworld

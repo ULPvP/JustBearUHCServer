@@ -1,0 +1,302 @@
+UHC-SETTINGS:
+  PREFIX: '&7[&eUHC&7] '
+  BORDER-PREFIX: '&7[&eBorder&7] '
+  TEAM-PREFIX: '&7[&eParty&7] '
+  RESTART-COMMAND: restart
+  LOBBY:
+    ENABLED: true
+    FALL-BACK-SERVER: hub
+  JOIN-ITEMS: true
+  AUTO-WHITELIST: false
+  PRACTICE-RESPAWN-RADIUS: 7
+  REBOOT-TIME: 30
+WORLDS:
+  LOBBY: uhc_lobby
+  UHC: uhc_world
+  NETHER: uhc_world_nether
+UHC-WORLD-USED: false
+LOCATIONS:
+  LOBBY:
+    WORLD: uhc_lobby
+    COORDS: 42.498135353877935;5.0;-192.54541245560267;-178.0989;-1.176207
+  PRACTICE:
+    WORLD: uhc_lobby
+    COORDS: 0.0;90.0;0.0;-90.0;0.0
+LEADERBOARD-FORMAT: '&9<pos>. &e<name>&7: &f<amount>'
+TAB-RELATED-COLORS:
+  FRIENDLY: DARK_GREEN
+  ENEMY: RED
+  LOBBY: GREEN
+  PRACTICE: DARK_AQUA
+WEBHOOK:
+  URL: ''
+  LOGO: ''
+  SERVER-IP: mc.server-ip.com
+HIDE-LOBBY-PLAYERS:
+  ENABLED: true
+  PERMISSION-TO-SHOW: uhc.lobby.view
+JOIN-MESSAGE:
+- '&7&m-----------------------------'
+- '&eGame Type&7: &f{teams}'
+- '&eBorder&7: &f{border}'
+- '&eScenarios&7: &9{scenarios}'
+- '&7&m-----------------------------'
+FREEZE-MESSAGE:
+- '&7&m-----------------------------'
+- '&eYou are currently frozen, join our teamspeak.'
+- ''
+- '&eTeamspeak&7:'
+- '&7&m-----------------------------'
+UHC-START-MESSAGE:
+- '&7&m-----------------------------'
+- '&eUHC has begun, good luck to all players.'
+- '&eBorder&7: &f{border}'
+- '&eScenarios&7: &a{scenarios}'
+- '&7&m-----------------------------'
+TEAM-LIST-FORMAT:
+- '&7&m---------------------------------'
+- '&e{owner}''s Party &7[{size}/{max}&7]'
+- '&eState&7: &f{state}'
+- '&eMembers&7: &a{members}&7.'
+- '&7&m---------------------------------'
+SEND-COORDS-FORMAT:
+- '&7&m---------------------------------'
+- '&e{player}''s coordinates'
+- '&7[&e{x}&7,&e{y}&7,&e{z}&7]'
+- '&bYou are {blocks} blocks away.'
+- '&7&m---------------------------------'
+RELOGG-SUCCESS:
+- '&7&m---------------------------------'
+- '&eYou have successfully relogged.'
+- '&eTime left until disqualification&7: &c{timeLeft}'
+- '&7&m---------------------------------'
+CHAT-FORMAT:
+  PARTY: '&7[&aParty Chat&7] &2{player}&7: &e{message}'
+  SPECTATOR: '&7[Spectator Chat] &a{player}&7: &e{message}'
+  HOST: '&7[&9Host&7] &e{player}&7: &6{message}'
+  MOD: '&7[&bUHC Mod&7] &e{player}&7: &f{message}'
+CHAT-PREFIXES:
+  HOST: '&7[&9Host&7] &r'
+  MOD: '&7[&bUHC Mod&7] &r'
+  PARTY: '&7[&6Team {id}&7] &r'
+USING-BUNGEE-ANNOUNCE-CHANNELS-ADDON: false
+VOTE-SYSTEM:
+  ENABLED: true
+  VOTE-FOR-SCENARIOS: true
+  VOTE-FOR-CONFIGS: false
+  MOST-VOTED-SCENARIOS-FORMAT: '&e<pos>. &6<name>&7: &f<amount>'
+  MOST-VOTED-CONFIGS-FORMAT: '&e<pos>. &6<name>&7: &f<amount>'
+BORDER:
+  START: 2000
+  SHRINK-UNTIL: 25
+  SHRINK-EVERY-MINUTES: 5
+  SHRINK-STREAM: 5000;4500;4000;3500;3000;2500;2000;1500;1000;500;200;150;100;50;25
+  SHRINK-STARTED:
+  - '&7&m--------------------------------------'
+  - '&a&lBorder shrink has started'
+  - '&eThe world border will shrink every &a{shrinkEvery} &eminutes,'
+  - '&euntil &a{until}x{until} blocks&e.'
+  - '&eNext border will shrink to &a{nextBorder} blocks&e.'
+  - '&7&m--------------------------------------'
+WORLD-GENERATOR: TerrainControl
+STARTER-INVENTORY: t@364:a@16;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;
+POPULATORS:
+  CUSTOM-CAVES: true
+  SUGAR-CANE-RATE: 50.0
+  COW-RATE: 10.0
+MOB-STACKER:
+  RADIUS: 5
+  LIMITATION: 50
+  DISABLED-WORLDS:
+  - world_nether
+SWAP-ALL-BIOMES:
+  ENABLED: false
+  SWAP-WITH: DESERT
+SWAP-BIOMES:
+- DEEP_OCEAN;PLAINS
+- OCEAN;PLAINS
+- JUNGLE;FOREST
+- ICE_PLAINS;FOREST
+- JUNGLE_EDGE;FOREST
+- JUNGLE_HILLS;FOREST
+- COLD_TAIGA;PLAINS
+- ICE_MOUNTAINS;FOREST
+- FROZEN_RIVER;FOREST
+- EXTREME_HILLS;FOREST
+- EXTREME_HILLS_PLUS;FOREST
+- FROZEN_OCEAN;PLAINS
+- ICE_PLAINS;PLAINS
+- ICE_MOUNTAINS;PLAINS
+- TAIGA_HILLS;PLAINS
+- SMALL_MOUNTAINS;PLAINS
+- DESERT;PLAINS
+SCENARIOS:
+  SHEEPS-DROP-COOKED-BEEF-ON-1_7: true
+  FLOWER-POWER-NON-DROPPED-MATERIALS:
+  - BEDROCK
+  - COMMAND_BLOCK
+  FLOWER-POWER-MATERIALS-TO-CHECK:
+  - RED_ROSE
+  - YELLOW_FLOWER
+UHC-WIN-MESSAGE:
+  SOLO:
+  - '&7&m-----------------------------------'
+  - '&eCongrats to &b{winner} &efor wining this uhc'
+  - '&eTotal kills&7: &b{kills}'
+  - '&7&m-----------------------------------'
+  TEAM:
+  - '&7&m-----------------------------------'
+  - '&eCongrats to &b{winners} &efor wining this uhc'
+  - '&eTotal kills&7: &b{kills}'
+  - '&7&m-----------------------------------'
+WORLD-BORDER-FILLING-MESSAGE:
+- '{prefix} &eUHC world is currently loading. &7(&6{chunks} chunks &ecompleted&7,
+  &6~ {percentage} %&7)&e.'
+RULES:
+  ENABLED: true
+  SEND-EVERY-SECONDS: 2
+  SOUND: CLICK
+  FORMAT: '&7[&eRule &9#{count}&7] &7{rule}'
+  RULES:
+  - No hacked clients of any kind - this includes x-ray machines!
+  - Spamming chunk reloads is considered exploiting and is treated as x-ray.
+  - Using f3 to check entities is not allowed and is treated the same as cave finder.
+  - If you see a hacker or someone who you believe is cheating, please use /helpop.
+  - You may mine to sounds and players.
+  - Spoiling what others have, when you're dead, will result in a 1 day ban. Dead shouldn't interfere.
+  - "No sky bases within 100x100. That means they can\ufffd\uea04 be within the final\
+    \ shrink."
+  - The grace period is 20 minutes long. During the time, ipvp is NOT allowed.
+  - Anyone caught ipvping during the grace period will be banned for 3 day.
+  - If you stalk youtubers/streamers/famous during this time, we may TP you away.
+  - The world border will tp you, not kill you.
+  - Type /config to see what is enabled and what is not.
+  - You may relog during the game but you only have 10 minutes to get back in.
+POINTS-SYSTEM:
+  PER-KILL: 3
+  PER-WIN: 6
+HOLOGRAMS:
+  WINS:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lTop Wins'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+  POINTS:
+    LOCATION:
+      X: 0
+      Y: 200
+      Z: 0
+    LINES:
+    - '&7&m------------------------------'
+    - '&a&lTop Points'
+    - ''
+    - '{leaderboardsFormat}'
+    - '&7&m------------------------------'
+PRE-WHITELISTED-PLAYERS:
+- FaceSlap_
+PRACTICE-ARENA:
+  MAX-PLAYERS: 50
+  TAKE-FALL-DAMAE: false
+  KIT:
+    ARMOR: t@309;t@312;t@311;t@306;
+    INVENTORY: t@267;t@346;t@261;t@322:a@3;null;null;null;null;t@262:a@12;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;null;
+AUTO-START:
+  ENABLED: false
+  REQUIRED-PLAYERS: 100
+  TIMER-IN-MINUTES: 1
+ANNOUNCE-MESSAGE:
+  WITHOUT-AUTO-START-ACTIVE: '&7[&a{serverName}&7] {displayName}&7: &a{gameType} &egame
+    is starting soon. &7[&a{scenarios}.&7]'
+  WITH-AUTO-START:
+    MINUTES: '&7[&a{serverName}&7] {displayName}&7: &a{gameType} &egame is starting
+      in &a{minutes} minutes. &7[&a{scenarios}.&7]'
+    SECONDS: '&7[&a{serverName}&7] {displayName}&7: &a{gameType} &egame is starting
+      in &a{seconds} seconds. &7[&a{scenarios}.&7]'
+DATA-SYNC:
+  NAME: uhc01
+TWEETS:
+  TWEET-1:
+    NAME: '&f&lWhitelist &7- &c&lOFF'
+    MATERIAL: PAPER
+    DURABILITY: 0
+    LINES:
+    - Whitelist for FateUHC is now OFF
+    - ' - Game Type: {gameType}'
+    - ' - BedrockWalls: {borderSize}'
+    - ' - Nether: {nether}'
+    - ' - Scenarios: {scenarios}'
+    - ''
+    - 'Starting in: {autoStart}'
+    - ''
+    - 'Join our server at: server-ip.com'
+  TWEET-2:
+    NAME: '&f&lWinner'
+    MATERIAL: PAPER
+    DURABILITY: 0
+    LINES:
+    - Congratulations to {winner} for wining FateUHC
+    - ' - Kills: {winner-kills}'
+    - ''
+    - 'Check out our server at: server-ip.com'
+DISCORD-TAG: '@everyone'
+MOTD:
+  ENABLED: true
+  LOBBY: '&eMOTD example line 1 {newLine}&dMOTD example line 2'
+  GAME: '&eMOTD example line 1 {newLine}&dMOTD example line 2'
+BUNGEE-AUTO-ANNOUNCE:
+  ENABLED: true
+  ANNOUNCE-TO-DISCORD-TOO: false
+  MINUTES: 30;20;10;5;4;3;2;1
+NICE-LOCATION-FORMAT: '&7[&2{x}&7,&2{y}&7,&2{z}&7] &7(&a{world}&7)'
+SOUNDS:
+  FIRST-SHRINK: NOTE_PIANO
+  START: ENDERDRAGON_GROWL
+  BORDER-SHRINK: LEVEL_UP
+  WIN: ENDERDRAGON_GROWL
+ORE-EXPERIENCE:
+  DIAMOND: 4
+  GOLD: 3
+  IRON: 2
+  LAPIS: 2
+  EMERALD: 3
+  REDSTONE: 2
+  COAL: 1
+UHC-BORDER-INFO-FORMAT:
+  SECONDS: '&7[&c<time>s&7]'
+  MINUTES: '&7[&c<time>m&7]'
+  LAST: '&7[&cLast&7]'
+USE-CONFIG-INFO-IN-CHAT: true
+CONFIGS-TO-SHOW-IN-CHAT:
+- Nether
+- Final Heal Duration
+- PvP Period Duration
+- Border Size
+- Border Shrink Interval
+- Border Shrink Until
+- First Shrink
+- Enderpearl Damage
+- Apple Rate
+- Shears
+- Shears Rate
+- Enchanted Golden Apples
+- Golden Heads
+- Nether Bed Explosion
+- Last Border Flat
+- Glass Bedrock
+- Party Damage
+- To Inventory
+- Exp Bottle
+- Late Scatter Period
+USE-SCENARIOS-INFO-IN-CHAT: true
+CONFIGS-IN-CHAT-FORMAT:
+- '&8&m------------------------------------------'
+- '&f&l<type> &7- &a<scenarios>'
+- '{configs}'
+- ' &fPotions&7: &a<potions>'
+- '&8&m------------------------------------------'

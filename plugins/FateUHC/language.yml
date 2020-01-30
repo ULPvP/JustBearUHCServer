@@ -1,0 +1,228 @@
+CANT_BREAK_BLOCKS: '&cYou can''t break blocks in your current state.'
+NO_PERMISSION: '&cNo permission.'
+CANT_PLACE_BLOCKS: '&cYou can''t place blocks in your current state.'
+STATE_ERROR: '&cYou can''t do that in your current state.'
+CONFIG_CHANGE:
+  TOGGLEABLE:
+    ENABLED: '{prefix} &a{configName} &ehas been &fenabled &eby &a{player}&e.'
+    DISABLED: '{prefix} &a{configName} &ehas been &fdisabled &eby &a{player}&e.'
+  INTEGER: '{prefix} &a{configName} &ehas been set to &a{newValue} &eby &a{player}&e.'
+SCENARIO:
+  ENABLED: '{prefix} &a{scenario} &escenarios has been &fenabled &eby &a{player}&e.'
+  DISABLED: '{prefix} &a{scenario} &escenarios has been &fdisabled &eby &a{player}&e.'
+WORLD_TELEPORT: '{prefix} &aYou''ve been teleport to &e{worldName}&a.'
+LOBBY_SET: '{prefix} &aYou have successfully updated lobby location.'
+TEAM:
+  JOINED: '{teamPrefix} &aYou have joined &b{teamOwner}''s &ateam.'
+  PLAYER-JOINED-TEAM: '{teamPrefix} &b{player} &ahas joined your party.'
+  PLAYER-LEFT-TEAM: '{teamPrefix} &b{player} &ahas left your party.'
+  LEFT: '{teamPrefix} &aYou have left &b{teamOwner}''s &ateam.'
+  CREATED-BROADCAST: '{teamPrefix} &eTeam &9#{id} &ehas been created by &9{player}&e.'
+  MAX-REACH: '{teamPrefix} &eTeam size can''t be bigger than {max}.'
+  ENABLED: '{teamPrefix} &eTeams are now active by &a{player}&e.'
+  DISABLED: '{teamPrefix} &eTeams are now disabled by &a{player}&e.'
+BORDER:
+  SHRUNK: '{borderPrefix} &fBorder has shrunk to &6{size} blocks&f.'
+  SHRINKING:
+    MINUTES: '{borderPrefix} &fBorder is going to shrink to &6{nextSize} &fblocks
+      in &6{time} minute(s)&f.'
+    SECONDS: '{borderPrefix} &fBorder is going to shrink to &6{nextSize} &fblocks
+      in &6{time} second(s)&f.'
+  CANT-GO-THROUGH: '{prefix} &eYou can''t go through the border'
+TIMES:
+  HEAL: '{prefix} &fFinal Heal &6is now given to all players.'
+  PVP: '{prefix} &fPvP &6has been active, be careful now.'
+RANDOM-PORT:
+  SUCCESS: '{prefix} &fYou''ve been teleported to &6{target}&f.'
+  FAIL: '{prefix} &eFailed to find player for you to teleport to!'
+DISQUALIFIED:
+  BROADCAST: '{prefix} &c{player} &ehas been disqualified due to disconnecting for
+    to long.'
+  ON-JOIN: '{prefix} &b&lYou were disqualified due to disconnecting for to long. Your
+    data is saved, please contact staff if you think this is an issue.'
+  LOGGER-DIED: '{prefix} &b&lYou were disqualified because your logger died. Your
+    data is saved, please contact staff if you think this is an issue.'
+RESPAWN:
+  PLAYER: '{prefix} &fYou have successfully respawn &6{target}&f.'
+  TARGET: '{prefix} &fYou have received respawn by &6{player}. &fHave fun playing.'
+TIME-BOMB-EXPLODED: '&7[&eTimeBomb&7] &9{player}''s &fCorpse has just exploded.'
+SAFE-LOOT-DENIED: '&7[&9SafeLoot&7] &eYou''re not allowed to access this chest. You''re
+  not the killer, only &9{accessor} &ehas access to it.'
+NO-CLEAN:
+  CANT-DAMAGE: '&7[&9NoClean&7] &eYou can''t damage that player. He has no clean for
+    another {seconds} second(s).'
+  REMOVED-HIT: '&7[&9NoClean&7] &eYour no clean has been removed because you hit &9{player}&e.'
+  RECEIVED: '&7[&9NoClean&7] &eYou are now undamaged for {seconds} seconds.'
+FREEZE:
+  TARGET: '{prefix} &eYou have been &9frozen &eby &a{player}&e.'
+  PLAYER: '{prefix} &eYou have successfully &9freeze &a{target}&e.'
+UNFREEZE:
+  TARGET: '{prefix} &eYou have been &9unfrozen &eby &a{player}&e.'
+  PLAYER: '{prefix} &eYou have successfully &9unfreeze &a{target}&e.'
+FREEZE-ALL: '{prefix} &cAll players have been frozen by &c&l{player}&c'
+BROADCASTER:
+  DIAMONDS: '{prefix} &e{player} &bis mining diamonds. &eLocation&7: &b{location}'
+  GOLD: '{prefix} &e{player} &6is mining gold. &eLocation&7: &b{location}'
+HEALTH-HIT: '{prefix} &a{target} &eis now at &a{health} &4&l{symbol}&e.'
+HEALTH-COMMAND: '{prefix} &a{target} &eis currently at &a{health} &4&l{symbol}&e.'
+LAG-CLEARED: '{prefix} &eSuccessfully cleared all &6&lENTITIES &efrom worlds. Total&7:
+  &6{total}&e.'
+BETTER-ENCHANT_ENCHANT-REMOVED: '{prefix} &eSuccessfully removed enchant from your
+  book'
+BETTER-ENCHANT_CANT-REMOVE: '{prefix} &cFailed while processing this event, your inventory
+  is full.'
+VOTES:
+  SCENARIOS:
+    ALREADY-VOTED: '{prefix} &eYou have already voted for &b{scenario}&e.'
+    UNCASTED: '{prefix} &eYou have uncasted your vote for &b{scenario}&e.'
+    CASTED: '{prefix} &eYou have &asuccessfully &ecasted your vote to &b{scenario}&e.'
+    DINT-VOTED: '{prefix} &eYou didn''t voted for any scenarios.'
+    NO-ENABLED-SCENARIOS: '{prefix} &eThere is no enabled scenarios to vote for.'
+    DINT-VOTED-FOR-SCENARIO: '{prefix} &eYou didn''t voted for &b{scenario}&e.'
+  CONFIGS:
+    ALREADY-VOTED: '{prefix} &eYou have already voted for &b{config}&e.'
+    UNCASTED: '{prefix} &eYou have uncasted your vote for &b{config}&e.'
+    CASTED: '{prefix} &eYou have &asuccessfully &ecasted your vote to &b{config}&e.'
+    DINT-VOTED: '{prefix} &eYou didn''t voted for any configs.'
+    DINT-VOTED-FOR-CONFIG: '{prefix} &eYou didn''t voted for &b{config}&e.'
+WHITELIST:
+  'ON': '{prefix} &eYou have &asuccessfully &ewhitelisted server.'
+  'OFF': '{prefix} &eYou have &asuccessfully &eunwhitelisted server.'
+  LIST: '{prefix} &eThere are &a{amount} &ewhitelisted players&7: &a{list}&e.'
+  CLEAR: '{prefix} &eYou have &asuccessfully &ecleared whitelist.'
+  ALL: '{prefix} &eYou have &asuccessfully &ewhitelisted all online players.'
+  ADDED: '{prefix} &eYou have &asuccessfully &ewhitelisted &a{player}&e.'
+  REMOVED: '{prefix} &eYou have &asuccessfully &eunwhitelisted &a{player}&e.'
+STARTER-INVENTORY:
+  SAVED: '{prefix} &eStarter inventory is now &asuccessfully &esaved.'
+  GIVE: '{prefix} &eYou have received starter inventory.'
+GIVE-ALL:
+  TO-ONLINE: '{prefix} &eYou have received &6{amount}x &eof &6{type} &efrom the server.'
+  TO-PLAYER: '{prefix} &eYou have &asuccessfully &egave &6{amount}x &eof &6{type}
+    &eto game players.'
+WORLD-BORDER-CHUNKS:
+  LOADED: '{prefix} &eUHC chunks are now loaded, restarting server in 5 seconds.'
+REBOOT: '{prefix} &cServer is rebooting in &4{format}&c.'
+COSMETICS:
+  ARROW-TRAIL:
+    APPLIED: '{prefix} &aYou have successfully activated your {cosmetic} &aarrow cosmetic.'
+  ROD-TRAIL:
+    APPLIED: '{prefix} &aYou have successfully activated your {cosmetic} &afishing
+      rod cosmetic.'
+  NOT-ENOUGH-POINTS: '{prefix} &cYou don''t have enough &c&lPOINTS &cto make this
+    trail active.'
+POINTS:
+  PER-KILL: '{prefix} &eYou have received &a{points} &e&lPOINTS &efor killing &6{player}&e.'
+  PER-WIN: '{prefix} &eYou have received &a{points} &e&lPOINTS &efor wining this game.'
+ALERTS:
+  GOLD: '&7[&6G&7] &6{player} &ffound &6{amount} gold. {niceLocation}&f.'
+  DIAMONDS: '&7[&bD&7] &b{player} &ffound &b{amount} diamonds. {niceLocation}&f.'
+  PVP: '&7[&4PvP&7] &c{player} &eis currently fighting &c{target}&e. {niceLocation}&e.'
+  iPVP: '{prefix} &eIt seems that &a&l{player} &eis trying to ipvp someone. &7(Don''t
+    ban player just by seeing this message)'
+  iPVP-TO-PLAYER: '{prefix} &eIpvp is disabled on this server.'
+PRACTICE:
+  ENABLED: '{prefix} &ePractice has been &aenabled &eby &6{player}&e.'
+  DISABLED: '{prefix} &ePractice has been &cdisabled &eby &6{player}&e.'
+  JOINED: '{prefix} &eYou''ve joined practice arena.'
+  LEFT: '{prefix} &eYou have left practice arena.'
+  ALREADY-IN-ARENA: '{prefix} &eYou''re already playing in the practice arena.'
+  NOT-IN-ARENA: '{prefix} &eYou''re not currently playing in the practice arena.'
+  DISABLED-ERROR: '{prefix} &4Practice &cis not currently available.'
+  FULL: '{prefix} &cPractice is currently full.'
+  MAX-PLAYER-UPDATE: '{prefix} &6{player} &ehas updated max players of practice to
+    &6{amount}&e.'
+  LOCATION-UPDATE: '{prefix} &eYou have successfully updated practice arena spawn
+    location.'
+  KIT-UPDATE: '{prefix} &eYou have successfully updated practice arena kit.'
+  ALREADY-ENABLED: '{prefix} &ePractice arena is already &aenabled&e.'
+LONG-SHOTS-SHOT: '{prefix} &6{player} &egot &6Long Shot &eof &6{blocks} &eblocks.'
+SWITHEROO: '{prefix} &eYou got &6Switcheroo''d &ewith &6{player}&e.'
+AUTO-START:
+  STARTED: '{prefix} &eAuto start has been activated since game got required amount
+    of player.'
+  CANCELLED: '{prefix} &eAuto start has been cancelled since game don''t have required
+    amount of player.'
+  FORMAT: '{prefix} &eScatter will begin in &6{format}&e.'
+SPECTATOR-CHAT:
+  ENABLED: '{prefix} &eYour spectator chat has been turned &aON&e.'
+  DISABLED: '{prefix} &eYour spectator chat has been turned &cOFF&e.'
+LOGIN:
+  DEATH-KICK: '{prefix} &7[&eDeathKick&7] &cYou died in this uhc.'
+  REBOOT: '{prefix} &cYou can''t join. Server is rebooting in &4{seconds} &cseconds.'
+  CHUNKS: '{prefix} &eChunks are currently loading. &7[&e{percentage}%&7]'
+  SPECTATE: '{prefix} &cYou can''t spectate this uhc game.'
+LATE-SCATTERED: '{prefix} &eYou have been late scattered.'
+CANT-SPECTATE: '{prefix} &cYou can''t spectate more than &c&l{size} blocks&c.'
+HOST:
+  ALREADY-SET: '{prefix} &eHost is already set. &6{host} &eis currently hosting this
+    game.'
+  NOT-SET: '{prefix} &eHost is currently not set. Use /sethost instead.'
+  BROADCAST-SET: '{prefix} &6{host} &eis now the host of this uhc game, be sure to
+    ask for help.'
+  BROADCAST-REMOVED: '{prefix} &6{host} &ehas been removed from hosting this uhc game.
+    &7(&fRemoved by &6{player}&7).'
+SCATTERED:
+  PLAYER: '{prefix} &eYou''ve scattered &a{target}&e.'
+  TARGET: '{prefix} &eYou''ve been scattered by &a{player}&e.'
+MOD:
+  ADDED: '{prefix} &6{target}''s &espectator mode has been &aEnabled &eby &6{player}&e.'
+  REMOVED: '{prefix} &6{target}''s &espectator mode has been &cDisabled &eby &6{player}&e.'
+HELPOP:
+  TO-STAFF: '{prefix} &7(&2Request&7) &a{player} &7has requested staff help&7: &f{message}'
+  TO-PLAYER: '{prefix} &aYou have sent your request to all online staff.'
+  CANT-SEND: '{prefix} &cYou can''t use request ability for another &c&l{seconds}
+    &csecond(s).'
+HEAL:
+  TARGET: '{prefix} &eYou have been healed by &6{player}&e.'
+  PLAYER: '{prefix} &eYou have &asuccessfully &ehealed &6{target}&e.'
+  ALL: '{prefix} &eYou have &asuccessfully &ehealed all online players.'
+DOUBLE_OR_NOTHING_FAIL: '{prefix} &7[&bDoubleOrNothing&7] &eYou didn''t had luck.
+  Good Luck next time.'
+HYPIXEL_HEAD_USED: '{prefix} &eYou have successfully used head, now you got &bRegeneration
+  III &efor &c4 seconds &eand &bSpped II &efor &c20 seconds&e.'
+VANISH:
+  'ON': '{prefix} &eYou have &aenabled &eyour vanish mode. You''re now hiden from
+    online players'
+  'OFF': '{prefix} &eYou have &cdisabled &eyour vanish mode. You''re no longer hiden
+    from online players'
+SKY_HIGH:
+  WARNING: '{prefix} &7[&bSkyHigh&7] &4&lWARNING&7: &cYou must go above &c&lY:<y>
+    &cor you will be taking 1 heart down every 30 seconds.'
+TWEET-TWEETED: '{prefix} &aYou have successfully tweeted uhc game. &7({tweet-name}&7]'
+SCATTER-MESSAGES:
+  LOADING: '{prefix} &aLoading scatter locations...'
+  PLAYER-LOCATION: '{prefix} &aYour scatter location&7: &b<niceLocation>'
+PVP_FORCE_ENABLED: '{prefix} &eYou have &aenabled &epvp in uhc world.'
+PVP_FORCE_DISABLED: '{prefix} &eYou have &cdisabled &epvp in uhc world.'
+CANT-SEND-MESSAGE-WHILE-RULES: '{prefix} &cYou can''t talk until rules are finished!'
+THANKCOMMAND:
+  CANT-SEND: '{prefix} &cYou can''t use the thank ability for another &c&l{seconds}
+    &csecond(s).'
+  SEND: '{prefix} &b&l{player} thanked the Host!'
+REPORT:
+  TO-STAFF: '{prefix} &7(&2Report&7) &a{player} &7has reported &a{target} &7for &f{message}'
+  TO-PLAYER: '{prefix} &aYour report has been successfully sent to all online staff.'
+  CANT-SEND: '{prefix} &cYou can''t use report ability for another &c&l{seconds} &csecond(s).'
+TRACKER:
+  FIND: '{prefix} &eYou''re now tracking &b<target>&7. &eDistance &7(&b<blocks> blocks&7)'
+  NO-FOUND: '{prefix} &cWe couldn''t find player to track around you.'
+MOLES:
+  LIST: '{prefix} &eThere is currently &b<moles> moles &ein this game&7: &c<moles>'
+  CHAT-ENABLED: '{prefix} &eYour moles chat has been &aenabled&e.'
+  CHAT-DISABLED: '{prefix} &eYour moles chat has been &cdisabled&e.'
+  LOADED: ' {0}&aMoles have been loaded successfully!{0}&a&lTotal Moles&7: &b<moles>
+    {0} '
+  SELECTED: '{prefix} &aYou have been selected to be a mole, try to kill other players
+    and team up with other moles. {0} &aYou can use &b/moles chat &ato toggle moles
+    chat!'
+GAME:
+  STARTING: '{prefix} &eGame is going to start in &6{time}&e.'
+MLG:
+  PLAYER: '&eYou have accepted the MLG challenge!'
+  GLOBAL: '{prefix} &e{player} has accepted the MLG challenge!'
+GOLDENHEAD:
+  NAME: Golden Head
+  ALL: '&7You sent a Golden Head to all online users.'
+  RECEIVE: '&7You received a Golden Head.'
+  SENT: '&7You sent {player} a Golden Head.'
